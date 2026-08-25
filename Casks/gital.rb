@@ -1,6 +1,6 @@
 cask "gital" do
-  version "0.1.10"
-  sha256 "97a38a4f32e6b482759d58f086b5608831421362cc58e56da29b0cee619de8f4"
+  version "0.1.11"
+  sha256 "af805379fc94a9e3e658366dd0284cbe6fca74d3692cf8c51f56c06ebc6165a4"
 
   url "https://github.com/k-ymmt/Gital/releases/download/v#{version}/Gital-#{version}.zip"
   name "Gital"
