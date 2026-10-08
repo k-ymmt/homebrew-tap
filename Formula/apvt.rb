@@ -1,8 +1,8 @@
 class Apvt < Formula
   desc "Shows an AI agent what an iOS Simulator app's views look like"
   homepage "https://github.com/k-ymmt/apvt"
-  url "https://github.com/k-ymmt/apvt/releases/download/v0.1.0/apvt-macos.tar.gz"
-  sha256 "14123f9001823875de7ca34d6f694fe5f41879b2e06845b00038e93c46c28146"
+  url "https://github.com/k-ymmt/apvt/releases/download/v0.2.0/apvt-macos.tar.gz"
+  sha256 "26e469fddd204df9f811244d45f3b3522f9606c9480109ddde0d26c343bd90d6"
   license "MIT"
 
   livecheck do
