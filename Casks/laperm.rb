@@ -28,6 +28,8 @@ cask "laperm" do
   depends_on macos: :tahoe
 
   app "LapermMac.app", target: "Laperm.app"
+  # The `laperm` CLI shipped inside the app (ADR 0049); it needs no sandbox and runs the Helper in place.
+  binary "#{appdir}/Laperm.app/Contents/Helpers/laperm"
 
   zap trash: [
     "~/Library/Application Scripts/app.kymmt.LapermMac",
