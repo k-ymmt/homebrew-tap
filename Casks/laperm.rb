@@ -1,6 +1,6 @@
 cask "laperm" do
-  version "0.1.0,448"
-  sha256 "fd18c69245b9e4cf09bd076d18e4f7c4e0283c76578443b1ea1a95aa7f05aa15"
+  version "0.1.0,477"
+  sha256 "86aeee3859056544a6352292e53d9090e5d67750410b2f77c54a792d27b780b9"
 
   url "https://github.com/k-ymmt/homebrew-tap/releases/download/laperm-v#{version.csv.first}-#{version.csv.second}/Laperm-#{version.csv.first}-#{version.csv.second}.zip"
   name "Laperm"
@@ -29,7 +29,7 @@ cask "laperm" do
 
   app "LapermMac.app", target: "Laperm.app"
   # The `laperm` CLI shipped inside the app (ADR 0049); it needs no sandbox and runs the Helper in place.
-  binary "#{appdir}/Laperm.app/Contents/Helpers/laperm"
+  binary "#{appdir}/Laperm.app/Contents/Helpers/laperm.app/Contents/MacOS/laperm"
 
   zap trash: [
     "~/Library/Application Scripts/app.kymmt.LapermMac",
