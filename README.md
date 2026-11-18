@@ -17,4 +17,4 @@ brew install k-ymmt/tap/apvt
 
 ## Formulae
 
-- [apvt](https://github.com/k-ymmt/apvt) — Shows an AI agent what an iOS Simulator app's views look like (macOS 15+, needs Xcode)
+- [apvt](https://github.com/k-ymmt/apvt) — Shows an AI agent what an iOS Simulator or macOS app's views look like (macOS 15+, needs Xcode)

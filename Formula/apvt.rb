@@ -1,8 +1,8 @@
 class Apvt < Formula
-  desc "Shows an AI agent what an iOS Simulator app's views look like"
+  desc "Shows an AI agent what an iOS Simulator or macOS app's views look like"
   homepage "https://github.com/k-ymmt/apvt"
-  url "https://github.com/k-ymmt/apvt/releases/download/v0.2.0/apvt-macos.tar.gz"
-  sha256 "26e469fddd204df9f811244d45f3b3522f9606c9480109ddde0d26c343bd90d6"
+  url "https://github.com/k-ymmt/apvt/releases/download/v0.3.0/apvt-macos.tar.gz"
+  sha256 "84854cb37df54069d5af0de45d042197f6e679619f5ee90dfeaf301fc2125313"
   license "MIT"
 
   livecheck do
@@ -18,8 +18,9 @@ class Apvt < Formula
 
   def caveats
     <<~EOS
-      apvt builds its in-app agent with Xcode on first use: it needs Xcode with the
-      iOS Simulator platform and Swift 6.2 or later (`xcrun --sdk iphonesimulator swiftc --version`).
+      apvt builds its in-app agent with Xcode on first use: it needs Xcode and
+      Swift 6.2 or later (`xcrun swiftc --version`), and for simulator apps the
+      iOS Simulator platform (`xcrun --sdk iphonesimulator swiftc --version`).
     EOS
   end
 
