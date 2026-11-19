@@ -1,6 +1,6 @@
 cask "bengalbot" do
-  version "0.1.0,83"
-  sha256 "e34d351a9d65bfc2d7e22e3743c14bcafec1a2011bfd7afa8638fa374d52e12b"
+  version "0.1.0,93"
+  sha256 "eb96570b40e81bb6579ed3efe7a8bea651c848b6687663f445617bf8da000b7a"
 
   url "https://github.com/k-ymmt/homebrew-tap/releases/download/bengalbot-v#{version.csv.first}-#{version.csv.second}/BengalBot-#{version.csv.first}-#{version.csv.second}.zip"
   name "BengalBot"
