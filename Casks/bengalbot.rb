@@ -25,7 +25,7 @@ cask "bengalbot" do
     end
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "BengalBot.app"
 
